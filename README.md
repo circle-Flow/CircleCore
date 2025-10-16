@@ -55,31 +55,26 @@ Our long-term vision is to **rival top-tier processors** like Intel Core i9 and 
 ```bash
 git clone https://github.com/circlelabs-ai/circlecore.git
 cd circlecore
+
 2. Install dependencies
 bash
-Copy code
 sudo apt update
 sudo apt install make gcc g++ python3 verilator qemu-system riscv-gnu-toolchain
+
 3. Build and run simulation
 bash
-Copy code
 cd sim
 make run
 4. Boot minimal Linux
 bash
-Copy code
 make linux
+
 🤝 Contributing
 CircleCore welcomes:
-
 RTL/Verilog designers
-
 Kernel/driver developers
-
 Testers and benchmarkers
-
 Documentation writers
-
 Community organizers
 
 Check CONTRIBUTING.md to learn how to contribute.
@@ -95,15 +90,10 @@ Phase	Goal	ETA
 
 🧪 Testing & Benchmarking
 Phoronix Test Suite for performance
-
 SPEC CPU workloads
-
 Linux perf tools for latency, interrupts, and memory throughput
-
 Unit tests for drivers
-
 bash
-Copy code
 cd tests
 make run
 🌍 Community
