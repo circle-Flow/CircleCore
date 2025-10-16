@@ -27,17 +27,14 @@ Our long-term vision is to **rival top-tier processors** like Intel Core i9 and 
 
 circlecore/
 ├── arch/ # RTL/Verilog for CPU/GPU cores
-│ ├── risc-v/ # RISC-V cores
-│ └── experimental/ # experimental architectures
+├── risc-v/ # RISC-V cores
+            └── experimental/ # experimental architectures
 ├── driver/ # Linux kernel modules + firmware
 ├── sim/ # QEMU / Verilator / Gem5 simulation
 ├── os/ # Minimal Linux image (Buildroot / Yocto)
 ├── tests/ # Benchmarks & stress tests
 ├── docs/ # Documentation, whitepapers, and design specs
 └── tools/ # Build & automation utilities
-
-yaml
-Copy code
 
 ---
 
