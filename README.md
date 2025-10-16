@@ -36,6 +36,7 @@ Our long-term vision is to **rival top-tier processors** like Intel Core i9 and 
 ## 🧭 Project Structure
 
 circlecore/
+
 ├── arch/               # Verilog/RTL cores
 
 │   ├── risc-v/
@@ -52,7 +53,7 @@ circlecore/
 
 ├── docs/               # Design docs & whitepapers
 
--- tools/              # Build & automation scripts
+├── tools/              # Build & automation scripts
 
 ---
 
