@@ -71,21 +71,18 @@ circlecore/
 ## 🧑‍💻 Quick Start
 
 ### 1. Clone the repo
-```bash
+```
 git clone https://github.com/circlelabs-ai/circlecore.git
 cd circlecore
 
 2. Install dependencies
-bash
 sudo apt update
 sudo apt install make gcc g++ python3 verilator qemu-system riscv-gnu-toolchain
 
 3. Build and run simulation
-bash
 cd sim
 make run
 4. Boot minimal Linux
-bash
 make linux
 
 🤝 Contributing
@@ -112,12 +109,25 @@ Phoronix Test Suite for performance
 SPEC CPU workloads
 Linux perf tools for latency, interrupts, and memory throughput
 Unit tests for drivers
-bash
 cd tests
 make run
 🌍 Community
 💬 Discord — Developer chat
 
+Next Steps / How to Integrate
+
+Simulate the Verilog modules with Verilator or Vivado.
+
+Connect C# program via a simple testbench or memory-mapped interface for interaction.
+
+Add more instructions, multi-core support, and GPU compute lanes iteratively.
+
+Code:
+git add arch/ driver/ sim/ tools/
+git commit -m "Initial CPU/GPU skeleton Verilog + C# simulation"
+git push origin main
+
+Commit all files to GitHub:
 🛠️ GitHub Projects — Roadmap & sprints
 
 🪙 Sponsor — Fund FPGA & fab milestones
