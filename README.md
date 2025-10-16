@@ -37,14 +37,22 @@ Our long-term vision is to **rival top-tier processors** like Intel Core i9 and 
 
 circlecore/
 ├── arch/               # Verilog/RTL cores
+
 │   ├── risc-v/
+
 │   └── experimental/
+
 ├── driver/             # Linux kernel modules
+
 ├── sim/                # QEMU / Verilator / Gem5 setup
+
 ├── os/                 # Buildroot / Yocto minimal Linux
+
 ├── tests/              # Benchmarks & unit tests
+
 ├── docs/               # Design docs & whitepapers
-└── tools/              # Build & automation scripts
+
+-- tools/              # Build & automation scripts
 
 ---
 
